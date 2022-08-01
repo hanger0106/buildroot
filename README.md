@@ -41,3 +41,7 @@ The container default working directory is `/home/project`, it is also a mountpo
 ## Simon's Change log 
 1. solve locale error with wchar
 2. entry point: change default username to USER=BR
+
+### build docker image from git:
+    docker build --tag buildroot-dev https://github.com/hanger0106/buidroot.git#main:.
+
